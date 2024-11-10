@@ -648,6 +648,7 @@ _comps=(
 'killall' '_killall'
 'killall5' '_killall'
 'kioclient' '_kfmclient'
+'kitty' '_kitty'
 'knock' '_knock'
 'konqueror' '_webbrowser'
 'kpartx' '_kpartx'
@@ -842,7 +843,6 @@ _comps=(
 'nginx' '_nginx'
 'ngrep' '_ngrep'
 'nice' '_nice'
-'nim' '_nim'
 'ninja' '_ninja'
 'nkf' '_nkf'
 'nl' '_nl'
@@ -1676,8 +1676,8 @@ bindkey '^[~' _bash_complete-word
 autoload -Uz _bat _bluetoothctl _bootctl _bun _busctl \
             _cargo _code _coredumpctl _curl _eza \
             _fnm _hostnamectl _hyprctl _hyprpm _journalctl \
-            _kernel-install _libinput _localectl _loginctl _machinectl \
-            _meson _mkinitcpio _networkctl _nim _ninja \
+            _kernel-install _kitty _libinput _localectl _loginctl \
+            _machinectl _meson _mkinitcpio _networkctl _ninja \
             _oomctl _pacman _paru _pulseaudio _resolvectl \
             _run0 _rustup _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
             _sd_unit_files _starship _swww _systemctl _systemd \
