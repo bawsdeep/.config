@@ -78,10 +78,6 @@ alias tojpg="mogrify -quality 0 -format jpeg"
 alias targ="tar -xvzf"
 alias tar="tar -xvf"
 
-# PIP 
-alias pip="pipx"
-alias pip3="pipx"
-
 # Remove
 alias rmr="rm -rf"
 alias rm="rm"
