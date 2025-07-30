@@ -1,0 +1,16 @@
+[Unit]
+Description=Autotiling Service
+After=sway-session.target
+Wants=sway-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/autotiling
+Restart=always
+Environment=WAYLAND_DISPLAY=wayland-0
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+WorkingDirectory=/home/exia
+
+[Install]
+WantedBy=default.target
+
